@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: rgb(20,20,20);
+	padding: 10px;
+}
+div.table {
+	font-family: Verdana;
+	background-color: rgb(222, 222, 222);
+	border: 1px solid black;
+	padding: inherit;
+	width: 350px;
+}
+p.head {
+	font-family: 17px Arial;
+	border-left: 3px solid red;
+	background-color: lightblue;
+	color:rgb(0,0,0);
+	padding: inherit;
+	border-radius: 2px;
+}
+p.description {
+	font-family: 15px Tahoma, serif;
+	padding: inherit;
+	border: 2px solid black;
+	opacity: 0.9;
+	border-radius: 10px;
+}
