@@ -1,0 +1,165 @@
+@import url("960_12_col.css");
+
+@font-face {
+	font-family: 'QuicksandBook';
+	src: url('../fonts/Quicksand_Book-webfont.eot');
+	src: url('../fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Quicksand_Book-webfont.woff') format('woff'),
+		url('../fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+		url('../fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	margin-top: 0px;
+	text-align: center;
+	font-size: 90%;
+	margin: 0px;
+	font-family: QuicksandBook;
+}
+
+div.header {
+	background-image: url(../images/bg-header.jpg);
+	padding: 0px;
+	position: fixed;
+	height: 100px;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+}
+
+img.triangle {
+	margin: 0px;
+	padding-left: 22px;
+}
+
+img.logo {
+	margin-bottom: 25px; 
+}
+
+div.logos {
+	float: left;
+	text-align: left;
+}
+
+div.nav a, div.nav {
+	text-shadow: 1px 1px 1px #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #807878;
+}
+
+.nav {
+	float:right;
+	padding: 45px 0px 0px 0px;
+	text-align: right;
+}
+
+.nav>a:hover {
+	color:#FCF9F8;
+}
+
+div.wrapper {
+	height: 1010px;
+	width: 960px;
+	margin: 0px auto;
+	background-image: url("../images/bg-triangle.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+}
+h1 {
+	margin-top: 140px; 
+}
+
+.intro {
+	clear: left;
+	border-bottom: 3px double white;
+	height: 400px;
+}
+
+.main {
+	background-image: url("../images/triangles.png");
+	background-repeat: no-repeat;
+	background-position: 123px 143px;
+}
+
+h1>a {
+	text-decoration: none;
+	color: #A1A294;
+	font-weight: lighter;
+}
+
+h1>a:hover {
+	color:#FCF9F8;
+}
+
+
+
+div.intro p {
+	color: #F3E8E8;
+}
+
+a.continue {
+	text-decoration: none;
+	color: #778177;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
+}
+
+a.continue:hover {
+	color:#FCF9F8;
+}
+
+p.date {
+	font-size: 80%;
+	color: #A1A294;
+	text-shadow: 1px 0px 1px #A1A294;
+}
+
+
+
+.bottom a {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 80%;
+	color: #A1A294;
+}
+
+.more-header h2>a {
+	text-decoration: none;
+	color: #A1A294;
+	font-weight: lighter;
+	font-size: 105%;
+}
+
+.bottom a:hover {
+	color:#FCF9F8;
+}
+
+.bottom p {
+	padding: 0px 2px 8px 2px;
+	border-bottom: 1px solid #807c72;
+}
+
+.bottom p:last-child {
+	border-bottom: none;
+}
+
+.bottom-info {
+	clear: both;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 5px 10px;
+	height: 50px;
+}
+
+.bottom-info a {
+	text-decoration: none;
+	color: white;
+	font-size: 130%;
+	letter-spacing: 2em;
+}
+.bottom-info a:hover {
+	color:#EC6818;
+}
