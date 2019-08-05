@@ -1,0 +1,134 @@
+body {
+	font-family: Arial;
+}
+
+div.desc p, div.desc ul {
+	font-size: 14px;
+}
+
+li {
+	list-style-image: url("../images/icon-plus.png");
+	line-height: 1.5em;
+}
+
+table {
+	border-spacing: 0px; 
+}
+
+tr {
+	background-color: rgb(140, 140, 255);
+}
+
+tr.even{
+	background-color: rgb(100, 100, 255);
+}
+
+tr th {
+	text-align: left;
+}
+
+tr td {
+}
+
+tr>th, tr>td 
+{
+	border-bottom: 1px solid #000;
+	padding: 6px 16px 6px 16px;
+	border-right: 1px solid #000;
+}
+
+tr.head th {
+	text-align: center;
+	background-color: rgb(60, 60, 255);
+	border-bottom: 2px solid #000000;
+}
+
+tr.head {
+	color: #fff;
+	text-shadow: 1px 1px 2px #fff;
+}
+
+
+tr.head th:last-child {
+	border-top-right-radius: 5px;
+	border-right: none;
+}
+
+tr.head th:first-child {
+	border-top-left-radius: 5px;
+	border-left: none;
+}
+
+fieldset {
+	width: 400px;
+}
+
+legend.main_title {
+	margin: 0px 0px 0px 30px;
+	padding: 12px;
+	border: 1px double #000;
+	border-radius: 10px;
+	background-color: #EFECB0;
+	font-family: Tahoma;
+	font-style: italic;
+}
+
+.title{
+	padding: 10px;
+	clear: left;
+	float: left;
+}
+
+input {
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-position: 7px center;
+	background-repeat: no-repeat;
+}
+
+
+select {
+	padding: 2px 2px 2px 2px;
+}
+
+input#name {
+	padding: 5px 5px 5px 30px;
+	background-image: url("../images/twitter.png");
+}
+
+input#email {
+	padding: 5px 5px 5px 30px;
+	background-image: url("../images/email.png");
+}
+
+input[type="text"], select {
+	outline: none;
+	clear: right;
+	float: right;
+	width: 150px;
+}
+
+input[type="text"]:hover, select:hover, input[type="text"]:focus, select:focus {
+	background: 
+	border-color: #996600;
+}
+#submit {
+	color: #fff;
+	border-color: #006633;
+	background-color: #009966; 
+	width: 150px;
+	height: 2em;
+}
+
+
+
+#submit:hover, #submit:focus {
+	background-color: #00AA66;
+}
+
+.button {
+	margin-top: 5px;
+	padding-left: 280px;
+}
+
+

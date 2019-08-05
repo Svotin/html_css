@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Списки, таблицы и формы</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<h1>
+		Поэтические чтения
+	</h1>
+	<div class="desc">
+		<p>
+			Мы проведём ряд встреч и симпозиумов в течении года.
+		</p>		
+		<p>
+			Вход на следующие мероприятия для участников свободный:
+			<ul>
+			    <li>Поэтическая перспектива</li>
+			    <li>Вечер поэзии в честь Д.Р. Пушкина А.С</li>
+			    <li>Поэзия и поэто серебрянного века</li>
+			</ul>
+		</p>
+	</div>
+	<div class="table"> 
+		<table>
+			<tr class="head">
+				<th></th>
+				<th>Москва</th>
+				<th>Санкт-Петербург</th>
+				<th>Екатеринбург</th>
+			</tr>
+			<tr class="even">
+				<th>Поэтическая перспектива</th>
+				<td>Сб. 4 февраля</td>
+				<td>Сб. 3 марта</td>
+				<td>Сб. 17 марта</td>
+			</tr>
+			<tr>
+				<th>Вечер поэзии в честь Д.Р. Пушкина А.С.</th>
+				<td>Сб. 7 апреля</td>
+				<td>Сб. 5 мая</td>
+				<td>Сб. 19 мая</td>
+			</tr>
+			<tr class="even">
+				<th>Поэзия и поэты серебрянного века</th>
+				<td>Сб. 9 июня</td>
+				<td>Сб. 7 июля</td>
+				<td>Сб. 21 июля</td>
+			</tr>
+			<tr>
+				<th>Поэты 21 века</th>
+				<td>Сб. 4 августа</td>
+				<td>Сб. 8 сентября</td>
+				<td>Сб. 15 сентября</td>
+			</tr>
+		</table>
+	</div>
+	<br><br>
+	<form action="http://www.example.com/form.php">
+		<fieldset>
+			<legend class="main_title">Зарегистрируйтесь</legend>
+			 	
+			<div>
+				<label for="name" class="title">Ваше имя:</label>
+				<input type="text" name="name" id="name">
+			</div> 
+			<br>
+			<div>
+			<label for="email" class="title">Ваш email:</label>
+			<input type="text" name="email" id="email">
+			</div>
+			<br>
+			<div>
+			<label for="city" class="title">Ближайший центр:</label>
+			<select name="city" id="city">
+				<option value="moscow">Москва</option>
+				<option value="ny">Нью-Йорк</option>
+				<option value="london">Лондон</option>
+			</select>
+			</div>
+			<br>
+			<label class="title">
+				<span >Являетесь ли вы участником?</span>
+				<label><input type="radio" name="member" value="y">Да</label>
+				<label><input type="radio" name="member" value="n">Нет</label>
+			</label>
+
+		</fieldset>
+		<div class="button">
+			<input type="submit" value="Зарегистрироваться" id="submit">
+		</div>
+	</form>
+</body>
+</html>
